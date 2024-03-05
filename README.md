@@ -1,5 +1,6 @@
-
 Django Framework
+
+![django](https://github.com/mainak-wq/CSEdjangoFramework/assets/75970138/e460c66f-5be7-499d-be34-e27ba29a9f4e)
 
 Python Django Framework tutorial for CSE 4th Semester candidates 
 Section : A, B & C
@@ -25,12 +26,3 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-
-
-
-## Demo
-
-Insert gif or link to demo
-
-
