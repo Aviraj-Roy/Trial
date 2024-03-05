@@ -6,5 +6,5 @@ def index(request):
     return render(request, "index.html")
 
 
-def secondPage(request):
-    return render(request, "secondPage.html")
+def success(request):
+    return render(request, "success.html")
