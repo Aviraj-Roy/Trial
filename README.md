@@ -13,8 +13,6 @@ Section : A, B & C
 
 ## Badges
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
