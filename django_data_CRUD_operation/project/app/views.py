@@ -21,7 +21,7 @@ def insert(request):
         if form.is_valid():
             try:
                 form.save()
-                return redirect('/')
+                return redirect('registered')
 
             except:
                 pass
@@ -32,7 +32,7 @@ def insert(request):
 
 def show(request):
     userdetails = Userdetails.objects.all()
-    return render(request, "admin/userinfo.html", {'userdetails': userdetails})
+    return render(request, "userdetails.html", {'userdetails': userdetails})
 
 
 def edit(request, id):
