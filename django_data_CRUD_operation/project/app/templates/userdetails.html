@@ -13,6 +13,7 @@
                 <th scope="col">Password</th>
                 <th scope="col">Email</th>
                 <th scope="col">Date</th>
+                <th scope="col">Action</th>
             </tr>
         </thead>
         <tbody>
@@ -21,9 +22,12 @@
                 <td>{{ userinfo.id }}</td>
                 <td>{{ userinfo.username }}</td>
                 <td>{{ userinfo.password }}</td>
-                <td>{{ userinfo.username }}</td>
                 <td>{{ userinfo.email }}</td>
                 <td>{{ userinfo.date }}</td>
+                <td>
+                    <a href="edit{{ userinfo.id }}"><button type="button" class="btn btn-primary mt-1"><span class="glyphicon glyphicon-pencil" >Edit</span></button></a>
+                    <a href="delete{{ userinfo.id }}"><button type="button" class="btn btn-danger mt-1">Delete</button></a>
+                </td>
             </tr>
             {% endfor %}
         </tbody>

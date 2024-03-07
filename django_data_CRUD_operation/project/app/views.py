@@ -37,7 +37,7 @@ def show(request):
 
 def edit(request, id):
     userinfo = Userdetails.objects.get(id=id)
-    return render(request, 'admin/edit.html', {'userinfo': userinfo})
+    return render(request, 'edit.html', {'userinfo': userinfo})
 
 
 def update(request, id):
@@ -45,11 +45,11 @@ def update(request, id):
     form = UserInfo(request.POST, instance=userinfo)
     if form.is_valid():
         form.save()
-        return redirect("/show")
-    return render(request, 'admin/edit.html', {'userinfo': userinfo})
+        return redirect('show')
+    return render(request, 'edit.html', {'userinfo': userinfo})
 
 
 def destroy(request, id):
     userinfo = Userdetails.objects.get(id=id)
     userinfo.delete()
-    return redirect("/show")
+    return redirect("show")
